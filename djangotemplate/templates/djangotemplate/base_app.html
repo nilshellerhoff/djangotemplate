@@ -57,8 +57,8 @@
   app.use(vuetify);
 </script>
 
-<!-- components (include app.component calls) -->
-{% include "djangotemplate/vue_components/app_bar.vue" %}
+<!-- include components declarations -->
+{% include "djangotemplate/vue_components/vue_components.html" %}
 
 <script>
   // mount global variables so they can be used to pass data from BE to FE
