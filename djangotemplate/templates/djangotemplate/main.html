@@ -1,0 +1,13 @@
+{% extends "djangotemplate/base.html" %}
+{% load variable %}
+
+{% block title %} Main page {% endblock %}
+
+{% block variables %}
+    {# define your variables here #}
+    {# {{ <python_variable> | variable:"<js_window_variable>" }}#}
+{% endblock %}
+
+{% block content %}
+    Hello from main.html!
+{% endblock %}
